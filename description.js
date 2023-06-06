@@ -24,10 +24,10 @@ getPokemons(id);
 
 const createPokemonCard = (pokemon, characteristic) => {
   const pokemonEl = document.createElement("div");
-  const descriptions = characteristic.descriptions;
-  const { description } = descriptions.find((desc)) => {
-    return desc.language.name === "en";
-  }
+  // const descriptions = characteristic.descriptions;
+  // const { description } = descriptions.find((desc)) => {
+  //   return desc.language.name === "en";
+  // }
 
   pokemonEl.classList.add("pokemon");
   console.log(pokemon.name);
